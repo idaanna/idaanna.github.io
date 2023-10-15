@@ -13,7 +13,7 @@
 - [ ] Links to external sites, e.g. GitHub and LinkedIn.
 
 ### Technical
-{{ I have deployed three webpages, the portfolio one, a contact me and a projects one. I have designed according to 'mobile first' design and then added media queries in my CSS. }}
+{{ I have deployed three webpages, the portfolio one, a contact me and a projects one. I have designed according to 'mobile first' design and then added media queries in my CSS. The project site has nothing of value atm so I won't include this in the screenshots }}
 - [ ] At least 2 web pages.
 - [ ] Version controlled with Git
 - [ ] Deployed on GitHub pages.
@@ -35,4 +35,14 @@ screenshot that shows that.
 > You can do this by saving the images in a folder in your repo, and including
 them in your readme document with the following Markdown code:
 #### {{ image_title }}
-![ {{ Description of image }} ]( {{ ./relative_path_to_file }} )
+[ {{ start page web nav }} ]( {{ Portfolio\images\start page web nav.png }} )
+[ {{ start page web top main }} ]( {{ Portfolio\images\start page web top main.png }} )
+[ {{ start page web lower main }} ]( {{ Portfolio\images\start page web lower main.png }} )
+[ {{ start page web footer }} ]( {{ Portfolio\images\start page web footer.png }} )
+[ {{ start page mobile nav and top main }} ]( {{ Portfolio\images\start page mobile nav and top main.png }} )
+[ {{ start page mobile lower main }} ]( {{ Portfolio\images\start page mobile lower main.PNG }} )
+[ {{ start page mobile footer }} ]( {{ Portfolio\images\start page mobile footer.PNG }} )
+[ {{ hover and activated link colours }} ]( {{ Portfolio\images\hover and activated link colours.png }} )
+[ {{ contact me web }} ]( {{ Portfolio\images\contact me web.PNG }} )
+[ {{ contact me mobile upper half }} ]( {{ Portfolio\images\contact me mobile upper half.png }} )
+[ {{ contact me mobile footer }} ]( {{ Portfolio\images\contact me mobile  footer.png }} )

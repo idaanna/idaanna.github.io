@@ -123,22 +123,23 @@ a{
 
 /* FOOTER */
     footer {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
     }
 
-    .footer-icons {
-        size: 5%;
-            /* padding: 10px;
-            font-size: 30px;
-            width: 20px;
-            text-align: center;
-            text-decoration: none;
-            border-radius: 30%;
-            color: var(--black-ish); */
-          } 
+    footer img {
+      height: 40px;
+    }
+
+    /* JO, WHO DO I GET MY ICONS TO GO TO THE CENTRE???
+    #icons {
+      display: flex;
+      justify-content: space-around;
+    } */
+      
+
+#closingstatement
 
 #columns {
     display: flex;
@@ -170,6 +171,7 @@ a{
     justify-content: center;
 }  
 
+
 /* this changes the colour of the links */
     a:link {
         color: var(--white-beige);
@@ -188,7 +190,6 @@ a{
         background-color: transparent;
         text-decoration: underline;
       }
-      
 
 /* @MEDIA QUERIES */
 
