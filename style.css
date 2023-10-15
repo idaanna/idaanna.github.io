@@ -1,0 +1,217 @@
+/* this resets default styling */
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    }
+    *, *:before, *:after {
+    box-sizing: inherit;
+    }
+    body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+    }
+    ol, ul {
+    list-style: none;
+    }
+
+    img {
+    max-width: 100%;
+    height: auto;
+    }
+
+   article{
+   background-color: #fff;
+   margin: 0;
+  } 
+
+a{
+   font-size: 20px;
+}
+
+/* FROM STYLE GUIDE TEMPLATE */
+:root {
+    --black-ish: #2C2926;
+    --yellow-beige: #EECE9F;
+    --white-beige: #FEFAE0;
+    --moss-green: #283618;
+    --olive-green: #BAC893;
+    --color6: ;
+
+  /*  inherited colors  */
+    --text: var(--white-beige);
+  }
+  
+  /* set default font style here */
+  body{
+    font-size:1rem;
+    color:var(--text);
+    font-family:'Roboto', sans-serif;
+  }
+  
+  /* Add Heading styles here  */
+  h1 {
+    font-size:3.052rem;
+  }
+  h2 {
+    font-size:2.441rem;
+  }
+  h3 {
+    font-size:1.953rem;
+  }
+  h4 {
+    font-size:1.563rem;
+  }
+  h5{
+    font-size:1.25rem;
+  }
+  h6{
+    font-size:1rem;
+  }
+  
+  /* style to make style guide */
+  body {
+    background-color: var(--moss-green);
+  }
+
+  /* VARAIBLES */
+  .black-ish {
+    background-color: var(--black-ish);
+  }
+  .yellow-beige {
+    background-color: var(--yellow-beige);
+  }
+  .white-beige {
+    background-color: var(--white-beige);
+  }
+  .moss-green {
+    background-color: var(--moss-green);
+  }
+  .olive-green {
+    background-color: var(--olive-green);
+  }
+  .color-6 {
+    background-color: var(--color6);
+  }
+
+  /* NAV */
+    nav {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding-right: 20px;
+}
+
+    #welcome {
+    padding-bottom: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+    #desertpea {
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+/* MAIN */
+    main {
+        padding: 20px;
+    }
+
+/* FOOTER */
+    footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+    }
+
+    .footer-icons {
+        size: 5%;
+            /* padding: 10px;
+            font-size: 30px;
+            width: 20px;
+            text-align: center;
+            text-decoration: none;
+            border-radius: 30%;
+            color: var(--black-ish); */
+          } 
+
+#columns {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#columns div {
+    padding-top: 60px;
+    padding-right: 60px;
+}
+
+#columns p {
+    padding-top: 60px;
+}
+
+#bannerphoto {
+    width: 100%;
+    height: fit-content;
+    background-size: cover;
+  }
+
+#closingstatement {
+    font-size: h1;
+    padding: 40px;
+    size: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}  
+
+/* this changes the colour of the links */
+    a:link {
+        color: var(--white-beige);
+        background-color: transparent;
+        text-decoration: none;
+      }
+      
+      a:visited {
+        color: var(--yellow-beige);
+        background-color: transparent;
+        text-decoration: none;
+      }
+      
+      a:hover {
+        color: var(--white-beige);
+        background-color: transparent;
+        text-decoration: underline;
+      }
+      
+
+/* @MEDIA QUERIES */
+
+@media (min-width: 767px ) {
+    nav {
+      flex-direction: row;
+      
+    }
+
+    nav a {
+      font-size: 30px;
+    }
+
+    #columns {
+        flex-direction: row;
+    }
+    #columns div {
+        padding-top: 80px;
+        padding-right: 80px;
+    }
+
+    footer {
+      flex-direction: row;
+    }
+
+  }
